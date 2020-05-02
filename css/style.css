@@ -12,10 +12,10 @@
 .header-container { 
 	display: flex;
 	justify-content: center;
-	border: 2px solid white;
+
 }
 
-.about {
+.home {
 	margin-left: auto; 
 }
 .logo img{
@@ -26,23 +26,43 @@
 .header{ 
 	width: 1200px;
 	display: flex;
-	justify-content: space-between;
 	margin-top: 20px; 
-	border: 1px solid red;
-
+	
+	justify-content: space-between;
+	color: white; 
 }
+
 header a{ 
 	text-decoration: none;
-	color: #FFFFFF;
 	padding: 5px 20px;
-	border: 1px solid transp 	arent;
+	border-radius: 3px;
+	border: 1px solid transparent;
 	transition: 0.6s ease;
+	color: white; 
 }
 header a:hover{
 	background-color: #C3073F;
 	color: #1A1A1D;
 }
+.header-active { 
+	background-color: #C3073F;
+	color: #1A1A1D;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #C3073F;
+}
+p { 
+	color:#e4e4e4;
+}
 
+
+.body-container { 
+	display: flex; 
+	justify-content: center;
+}
+.normal-body { 
+	width: 1200px; 
+}
 /* ************** HOME PAGE *************** */ 
 .title-container{
 	display: flex; 
@@ -76,76 +96,3 @@ header a:hover{
 	background-color: #C3073F;
 	color: #1A1A1D;	
 }
-/* ************** HOME PAGE *************** */ 
-
-/*
-ul{
-	float: right;
-	list-style-type: none;
-	margin-top: 25px;
-}
-
-ul li{
-	display: inline-block;
-}
-
-
-ul li a{
-	text-decoration: none;
-	color: #FFFFFF;
-	padding: 5px 20px;
-	border: 1px solid transp 	arent;
-	transition: 0.6s ease;
-}
-
-ul li a:hover{
-	background-color: #C3073F;
-	color: #1A1A1D;
-}
-
-ul li.active a{
-	background-color: salmon;
-	color: #1A1A1D;
-}
-
-.logo img{
-	margin-right: auto; 
-	width: 150px;
-	clear: both; 
-}
-
-
-.title{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	display: block; 
-}
-
-h1{
-	color: #950740;
-	font-size: 70px;
-}
-
-.button{
-	position: absolute;
-	top: 60%;
-	left: 50%;
-	transform: translate(-50%, -50%);	
-}
-
-.btn{
-	border: 1px solid #950740;
-	padding: 10px 30px;
-	color: #4E4E50;
-	transition: 0.6s ease;
-	text-decoration: none;
-}
-
-.btn:hover{
-	background-color: #C3073F;
-	color: #1A1A1D;	
-}
-
-*/
