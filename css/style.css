@@ -1,3 +1,4 @@
+/* ************** GLOBAL STYLES *************** */ 
 * {
 	margin: 0;
 	padding: 0;
@@ -63,6 +64,8 @@ p {
 .normal-body { 
 	width: 1200px; 
 }
+
+
 /* ************** HOME PAGE *************** */ 
 .title-container{
 	display: flex; 
@@ -96,3 +99,4 @@ p {
 	background-color: #C3073F;
 	color: #1A1A1D;	
 }
+/* ************** HOME PAGE *************** */ 
