@@ -1,14 +1,17 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+	
 	font-family: 'Century Gothic';
-}
+	background-color: #1A1A1D;
+  }
 
-header{
-	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/1.jpg);
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
+.navbar{
+	height: 150px; 
+	margin: auto;
+	max-width: 1200px;
+	clear: both; 
 }
 
 ul{
@@ -23,42 +26,39 @@ ul li{
 
 ul li a{
 	text-decoration: none;
-	color: black;
+	color: #FFFFFF;
 	padding: 5px 20px;
 	border: 1px solid transp 	arent;
 	transition: 0.6s ease;
 }
 
 ul li a:hover{
-	background-color: salmon;
-	color: wheat;
+	background-color: #C3073F;
+	color: #1A1A1D;
 }
 
 ul li.active a{
 	background-color: salmon;
-	color: wheat;
+	color: #1A1A1D;
 }
 
 .logo img{
 	float: left;
 	width: 150px;
-	height: auto;
+	clear: both; 
 }
 
-.main{
-	max-width: 1200px;
-	margin: auto;
-}
 
 .title{
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	display: block; 
 }
 
-.title h1{
-	color: salmon;
+h1{
+	color: #950740;
 	font-size: 70px;
 }
 
@@ -70,14 +70,15 @@ ul li.active a{
 }
 
 .btn{
-	border: 1px solid salmon;
+	border: 1px solid #950740;
 	padding: 10px 30px;
-	color: black;
+	color: #4E4E50;
 	transition: 0.6s ease;
 	text-decoration: none;
 }
 
 .btn:hover{
-	background-color: salmon;
-	color: wheat;	
+	background-color: #C3073F;
+	color: #1A1A1D;	
 }
+
