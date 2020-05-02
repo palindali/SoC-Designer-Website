@@ -1,0 +1,11 @@
+TODO: 
+- navigation bar
+- home page
+- about page
+- team page
+- help 
+- sign in
+- sign up
+
+
+- the actual web app
